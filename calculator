@@ -9,6 +9,7 @@ namespace SubtractionOfTwoNumbers
             // Declare variables to hold the two numbers
             int number1, number2, difference;
 
+ suteract
             // Prompt the user to enter the first number
             Console.Write("Enter the first number: ");
             number1 = int.Parse(Console.ReadLine());
@@ -22,6 +23,26 @@ namespace SubtractionOfTwoNumbers
 
             // Print the result
             Console.WriteLine("The difference between " + number1 + " and " + number2 + " is: " + difference);
+
+            Console.WriteLine("Name: " + name);
+            Console.WriteLine("Roll NO : " + rollNo);
+        }using System;
+
+namespace PrintInfo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = "Muneeb ur rehman";
+            string rollNo = "24-ST_023";
+
+            Console.WriteLine("Name: " + name);
+            Console.WriteLine("Roll NO : " + rollNo);
+ addition
         }
+    }
+}
+
     }
 }
