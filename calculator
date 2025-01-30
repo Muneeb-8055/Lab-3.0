@@ -1,15 +1,20 @@
 using System;
 
+ multiply
  division
 namespace DivisionOfTwoNumbers
 namespace MultiplicationOfTwoNumbers
  multiply
+
+namespace SubtractionOfTwoNumbers
+ suteract
 {
     class Program
     {
         static void Main(string[] args)
         {
             // Declare variables to hold the two numbers
+ multiply
  division
             double number1, number2, result;
 
@@ -39,18 +44,32 @@ namespace MultiplicationOfTwoNumbers
 
             // Prompt the user to enter the first number
             Console.Write("Enter the first number: ");
+
+            int number1, number2, difference;
+
+            // Prompt the user to enter the first number
+            Console.Write("Enter the first number: ");
+ suteract
             number1 = int.Parse(Console.ReadLine());
 
             // Prompt the user to enter the second number
             Console.Write("Enter the second number: ");
             number2 = int.Parse(Console.ReadLine());
 
+ multiply
             // Calculate the product
             product = number1 * number2;
 
             // Print the result
             Console.WriteLine("The product of " + number1 + " and " + number2 + " is: " + product);
  multiply
+
+            // Calculate the difference
+            difference = number1 - number2;
+
+            // Print the result
+            Console.WriteLine("The difference between " + number1 + " and " + number2 + " is: " + difference);
+ suteract
         }
     }
 }
