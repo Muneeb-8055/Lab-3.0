@@ -1,5 +1,33 @@
 using System;
 
+namespace SubtractionOfTwoNumbers
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Declare variables to hold the two numbers
+            int number1, number2, difference;
+
+ suteract
+            // Prompt the user to enter the first number
+            Console.Write("Enter the first number: ");
+            number1 = int.Parse(Console.ReadLine());
+
+            // Prompt the user to enter the second number
+            Console.Write("Enter the second number: ");
+            number2 = int.Parse(Console.ReadLine());
+
+            // Calculate the difference
+            difference = number1 - number2;
+
+            // Print the result
+            Console.WriteLine("The difference between " + number1 + " and " + number2 + " is: " + difference);
+
+            Console.WriteLine("Name: " + name);
+            Console.WriteLine("Roll NO : " + rollNo);
+        }using System;
+
 namespace PrintInfo
 {
     class Program
@@ -11,6 +39,10 @@ namespace PrintInfo
 
             Console.WriteLine("Name: " + name);
             Console.WriteLine("Roll NO : " + rollNo);
+ addition
         }
+    }
+}
+
     }
 }
